@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BlueprintX-AI</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              cyber: {
+                900: '#0f172a',
+                800: '#1e293b',
+                700: '#334155',
+                500: '#3b82f6',
+                400: '#60a5fa',
+                accent: '#06b6d4'
+              }
+            },
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              mono: ['Fira Code', 'monospace'],
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      body { margin: 0; background-color: #020617; color: white; font-family: 'Inter', sans-serif; overflow: hidden; }
+      /* Custom Scrollbar */
+      ::-webkit-scrollbar { width: 8px; height: 8px; }
+      ::-webkit-scrollbar-track { background: #0f172a; }
+      ::-webkit-scrollbar-thumb { background: #334155; border-radius: 4px; }
+      ::-webkit-scrollbar-thumb:hover { background: #475569; }
+      
+      .glass-panel {
+        background: rgba(30, 41, 59, 0.7);
+        backdrop-filter: blur(12px);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "@react-three/drei": "https://esm.sh/@react-three/drei@^10.7.7",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.33.0",
+    "@react-three/fiber": "https://esm.sh/@react-three/fiber@^9.4.2",
+    "lucide-react": "https://esm.sh/lucide-react@^0.561.0",
+    "three": "https://esm.sh/three@^0.182.0",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "pdfjs-dist": "https://esm.sh/pdfjs-dist@4.8.69"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

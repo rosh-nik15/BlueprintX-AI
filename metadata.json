@@ -1,0 +1,5 @@
+{
+  "name": "Copy of BlueprintX-AI 3D Space Planner",
+  "description": "Convert 2D floor plans into interactive 3D models with cost estimation, safety analysis, and renovation recommendations using Gemini 3 Pro.",
+  "requestFramePermissions": []
+}
